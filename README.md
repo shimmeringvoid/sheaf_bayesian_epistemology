@@ -3,6 +3,8 @@
 **Author:** Rafael Espericueta ([ShimmeringVoid.org](https://ShimmeringVoid.org))  
 **Manuscript (v8.7):** [`sheaf_bayesian_epistemology_v8_7.pdf`](sheaf_bayesian_epistemology_v8_7.pdf) | **LaTeX Source:** [`sheaf_bayesian_epistemology_v8_7.tex`](sheaf_bayesian_epistemology_v8_7.tex) | **Verification Suite:** [`simulate_sheaf_bayes_v8_6.py`](simulate_sheaf_bayes_v8_6.py)
 
+> **Start Here — Plain-Language Guide:** Read [**`OVERVIEW.md`**](OVERVIEW.md) for an accessible, non-technical tour of the core ideas, the three-layer architecture, and what the four Python experiments test.
+
 ---
 
 ## Overview
@@ -21,6 +23,7 @@ Every experimental table body and inline empirical scalar in Section 6 of the pa
 
 | File | Description |
 | :--- | :--- |
+| [`OVERVIEW.md`](OVERVIEW.md) | Accessible, plain-language guide to the paper and Python experiments |
 | `sheaf_bayesian_epistemology_v8_7.pdf` | Compiled 32-page manuscript (Version 8.7) |
 | `sheaf_bayesian_epistemology_v8_7.tex` | Main LaTeX source (inputs `v8_6_results_macros.tex` with hard check) |
 | `simulate_sheaf_bayes_v8_6.py` | Self-contained simulation, audit, macro exporter, and plotting script |
@@ -90,4 +93,4 @@ pdflatex -interaction=nonstopmode -halt-on-error sheaf_bayesian_epistemology_v8_
 ## License
 
 * **Code (`*.py`):** [MIT License](LICENSE)
-* **Manuscript & Figures (`*.tex`, `*.pdf`, `*.png`):** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* **Manuscript & Figures (`*.tex`, `*.pdf`, `*.png`, `*.md`):** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
